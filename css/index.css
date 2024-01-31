@@ -1,0 +1,163 @@
+html, body {
+    overflow-x: hidden;
+    background-color: #F8F0E3;
+}
+.ms-10 {
+    margin-left: 100px;
+}
+.me-10 {
+    margin-right: 100px;
+}
+.pe-10 {
+    padding-right: 100px;
+}
+.ps-10 {
+    padding-left: 100px;
+}
+h3 {
+    font-size: 3rem;
+}
+.barlow-medium {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+.barlow-light {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+
+}
+.inter-light {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.inter-medium {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.border {
+    border: 1px solid red !important;
+
+}
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+.hero-section {
+    height: 90vh;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.hero-heading {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.green-circle {
+    box-shadow: #04c454 20px 20px 0px 0px, #04c454 -20px -20px 0px 0px;
+}
+.btn {
+    background-color: #04c454;
+    color: #fff;
+    border-radius: 0 !important;
+}
+.btn:hover {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #04c454;
+    color: #04c454;;
+}
+.carousel-section {
+    height: 80vh;
+}
+.carousel {
+    height: 80vh;
+}
+.carousel-item {
+    height: 80vh;
+}
+.quality-products {
+    width: 75vw;
+    margin: auto;
+    font-size: 1.8rem;
+}
+.card {
+    width: 300px;
+    height: auto;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-text {
+    font-size: 1.4rem;
+
+}
+.card-section {
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: #04c454;
+}
+a:hover {
+    text-decoration: none;
+    color: #04c454;
+}
+
+
+
+
+/* CARD FLIP CSS */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+    /* CARD FLIP CSS END */
