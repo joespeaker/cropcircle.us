@@ -1,6 +1,6 @@
 html, body {
     overflow-x: hidden;
-    background-color: #F8F0E3;
+    background-color: #F8F0E3 !important;
 }
 .ms-10 {
     margin-left: 100px;
@@ -24,7 +24,6 @@ h3 {
 .barlow-light {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
-
 }
 .inter-light {
     font-family: 'Inter', sans-serif;
@@ -37,6 +36,13 @@ h3 {
 .border {
     border: 1px solid red !important;
 
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+.nav-link-footer {
+    color: #04c454
 }
 .navbar {
     background-color: #fff !important;
@@ -74,15 +80,15 @@ h3 {
     box-shadow: inset 0 0 0 2px #04c454;
     color: #04c454;;
 }
+/* Custom CSS for carousel-section */
 .carousel-section {
-    height: 80vh;
-}
-.carousel {
-    height: 80vh;
-}
-.carousel-item {
-    height: 80vh;
-}
+    max-width: 800px; /* Set the maximum width as per your requirement */
+    margin: auto; /* Center the carousel horizontally */
+  }
+  
+  /* Responsive styling for images inside the carousel */
+  
+  
 .quality-products {
     width: 75vw;
     margin: auto;
@@ -109,6 +115,83 @@ a:hover {
     text-decoration: none;
     color: #04c454;
 }
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+.footer-text {
+    font-size: 1.4rem;
+}
+.bodoni {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+}
+.bodoni-bold {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+}
+.shop-img {
+    transform: scaleX(-1);
+    height: auto;
+    width: 80%
+}
+.video {
+    height: 45vh;
+}
+@media screen and (max-width: 768px) {
+    .ms-10 {
+        margin-left: 10px;
+    }
+    .me-10 {
+        margin-right: 10px;
+    }
+    .pe-10 {
+        padding-right: 10px;
+    }
+    .ps-10 {
+        padding-left: 10px;
+    }
+    .hero-heading {
+        font-size: 50px;
+    }
+    .hero-section {
+        height: 70vh;
+        margin-top: 30px;
+    }
+    .hero-img {
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .justify-content-center {
+        justify-content: center;
+    }
+    .justify-content-end {
+        justify-content: center !important;
+    }
+    .justify-content-between {
+        justify-content: center !important;
+    
+    }
+    
+}
+.border-top {
+    border-top: 1px solid #E0e0e0 !important;
+
+}
+.about-text {
+    font-size: 1.4rem;
+}
+.product-text {
+    font-size: 1.4rem;
+
+}
+
+.product-description li {
+    font-size: 1.4rem;
+}
+
 
 
 
